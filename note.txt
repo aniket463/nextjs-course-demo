@@ -1,9 +1,0 @@
-npm run dev  -> run 
-npm run build -> need to run before deploy in productions
-
-
-mongo
-nCmERlVKeqXcaLPN
-
-npm install mongodb
-
