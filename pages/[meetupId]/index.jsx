@@ -33,7 +33,7 @@ export async function getStaticPaths() {
   return {
     // false -> (All supported path are define) only find these configure path, If not match then return 404 page
     //true => if not match then dynamically geenerate page for coming request
-    fallback: false,
+    fallback: 'blocking',
     paths: meetups.map((meetup) => ({
       params: { meetupId: meetup._id.toString() },
     })),
